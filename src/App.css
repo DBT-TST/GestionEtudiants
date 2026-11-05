@@ -1,0 +1,21 @@
+*{color :black;}
+table{
+    border-collapse: collapse;
+    
+}
+th{
+    border :solid 2px rgb(140, 142, 220);
+    padding: 6px;
+    background-color: rgb(189, 224, 255);
+    
+}
+td{
+    border :solid 2px rgb(140, 142, 220);;
+    padding: 10px;
+    background-color: rgb(230, 243, 255);
+}
+.info{
+    position: relative;
+    display: block;
+
+}
