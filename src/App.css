@@ -19,3 +19,12 @@ td{
     display: block;
 
 }
+button{
+    color:#eeeaf1;
+    font-weight: 800;
+    background-color: #470b6c;
+    border: #b167e0 2px solid;
+    border-radius: 25%;
+    padding: 4px 10px 4px 10px; 
+    margin:4px;
+}
