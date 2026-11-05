@@ -10,6 +10,8 @@ function App() {
     <>
       <div className="info">
         <h1>Application de gestion des etudiantes</h1>
+        <h2>Gestion des étudiants BTS DAI</h2>
+        <p>Projet React récupéré depuis GitHub</p>
         <h3>Exercice 2 : List d'etudiant</h3>
         <table className="info_table">
           <thead>
