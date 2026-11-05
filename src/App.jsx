@@ -12,7 +12,15 @@ function App() {
         <h1>Application de gestion des etudiantes</h1>
         <h3>Exercice 2 : List d'etudiant</h3>
         <table className="info_table">
-          <thead><tr><th>id</th><th>nom</th><th>prenom</th><th>age</th><th>filliere</th></tr></thead>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>nom</th>
+              <th>prenom</th>
+              <th>age</th>
+              <th>filliere</th>
+            </tr>
+          </thead>
           <tbody>{etud.map((i) => (<Etudiant key={i.id} id={i.id} nom={i.nom} prenom={i.prenom} age={i.age} filliere={i.filliere}/>))}</tbody>
         </table>
         <h3>Exercice 5 : Compteur</h3>
