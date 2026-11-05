@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <div className="info">
+        <h1>Application de gestion des etudiants</h1>
         <h3>Exercice 2 : List d'etudiant</h3>
         <table className="info_table">
           <thead><tr><th>id</th><th>nom</th><th>prenom</th><th>age</th><th>filliere</th></tr></thead>
